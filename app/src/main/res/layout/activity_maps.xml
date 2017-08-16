@@ -1,0 +1,48 @@
+<fragment xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:map="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/map"
+    android:name="com.google.android.gms.maps.MapFragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".application.MapsActivity" >
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left|bottom"
+        android:text="Purity"
+        android:padding="10dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/purityButton"
+        android:paddingRight="10dp"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right|bottom"
+        android:text="Source"
+        android:padding="10dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/sourceButton"
+        android:paddingRight="10dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left|top"
+        android:text="View Purity Reports"
+        android:padding="10dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/viewPurity"
+        android:paddingRight="10dp"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right|top"
+        android:text="View Source Reports"
+        android:padding="10dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/viewSource"
+        android:paddingRight="10dp"/>
+
+</fragment>
